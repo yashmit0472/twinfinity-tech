@@ -24,7 +24,7 @@ const About = () => {
     <section id="about" className="py-20 bg-background">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center gap-16 lg:grid-cols-2">
-          <div className="space-y-8 animate-fade-in">
+          <div id="who-we-are" className="space-y-8 animate-fade-in scroll-mt-24">
             <div>
               <h2 className="mb-6 text-4xl font-bold text-foreground">
                 Who We Are

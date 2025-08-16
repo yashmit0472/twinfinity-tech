@@ -147,3 +147,7 @@ All colors MUST be HSL.
 .animate-data-pulse {
   animation: data-pulse 3s ease-in-out infinite;
 }
+
+html {
+  scroll-behavior: smooth;
+}
