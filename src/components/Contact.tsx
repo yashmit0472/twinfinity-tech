@@ -22,7 +22,7 @@ const contactInfo = [
   {
     icon: Thirteen,
     title: "Locations",
-    detail: "Delhi, Mumbai,\nBangaluru, Pune",
+    detail: "Delhi, Bengaluru,\nPune, Mumbai",
   },
 ];
 
