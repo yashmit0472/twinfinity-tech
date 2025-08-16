@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/twinf_logo_675px.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-0.75">
             <img 
-              src="/src/assets/twinf_logo_675px.png" 
+              src={logo}
               alt="Twinfinity Technologies Logo"
               className="object-contain w-16 h-16 p-2 rounded-lg shadow-lg bg-white/10"
             />
